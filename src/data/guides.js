@@ -1,0 +1,702 @@
+const GUIDES = [
+  {
+    id: 1,
+    slug: 'what-is-a-headhunter',
+    icon: '🔍',
+    tag: 'Essential Reading',
+    time: '14 min read',
+    title: 'What is a Headhunter?',
+    subtitle: 'The definitive guide to executive search — what headhunters do, how they work, and why businesses use them for their most important hires.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'Definition: What Exactly is a Headhunter?',
+        b: `A headhunter is a specialist recruitment professional hired by an organisation to identify, approach, and secure candidates for senior, executive, or hard-to-fill positions. Unlike conventional recruiters who advertise roles and wait for applications, headhunters proactively go into the market to find the right person — typically someone not actively looking for a new role. The term is used interchangeably with "executive search consultant," though some firms distinguish between the two based on seniority thresholds or methodology.
+
+Headhunters operate at the senior end of the hiring spectrum: C-suite appointments, board-level placements, managing director and VP roles, and highly specialist positions where the talent pool is small and the stakes high. The defining characteristic is the proactive, research-led approach to candidate identification — not the advertising and filtering that underpins traditional recruitment.
+
+In the UK, headhunters typically work on a retained basis, meaning the hiring organisation pays a portion of the fee upfront to secure the firm's exclusive commitment to the search. This model distinguishes retained executive search from contingency recruitment, where fees are only paid on successful placement. Most established UK search firms — including those accredited by the Association of Executive Search and Leadership Professionals (AESC) — operate exclusively on a retained basis.`,
+      },
+      {
+        h: 'What Do Headhunters Actually Do?',
+        b: `The process begins with a detailed briefing — understanding not just the role requirements, but the organisation's strategy, culture, leadership dynamics, and the specific qualities that will make the difference between a good hire and an exceptional one. This briefing phase often involves multiple conversations with the CEO, Chair, CHRO, or the relevant hiring manager, and results in a comprehensive role specification and candidate profile.
+
+Next comes research and market mapping. The headhunter identifies every potential candidate in the relevant market — current incumbents in comparable roles, recently promoted executives, lateral moves from adjacent sectors, international candidates where the search is global in scope. A thorough search will map 100–300 potential candidates before narrowing to a longlist of 15–25 people genuinely worth approaching.
+
+The approach itself is discreet and personalised. Most people contacted are not actively looking for a new role. The headhunter's job is to make the opportunity compelling enough to create genuine interest — presenting the role, the organisation, and the growth potential in a way that resonates with a specific individual's career ambitions. This requires deep market knowledge and strong interpersonal skills.
+
+Assessment follows: competency-based interviews, psychometric testing in many cases, 360-degree referencing with former colleagues and managers, and detailed written candidate assessments for each shortlisted individual. The client receives a shortlist of typically three to six candidates, each accompanied by a thorough written report covering career history, motivations, competency evidence, and any concerns or risks.
+
+From shortlist presentation, the headhunter manages the interview process, supports offer structuring and negotiation, and in most retained engagements, provides an aftercare period of three to six months post-placement — checking in on the new hire's integration and flagging any issues early.`,
+      },
+      {
+        h: 'When Should You Use a Headhunter?',
+        b: `The case for using a headhunter is strongest when one or more of the following conditions apply. The role is director level or above, and the best candidates are unlikely to be actively job-seeking. Confidentiality is required — for example, when replacing an incumbent who has not yet been told they are leaving, or when a company does not want competitors to know it is building capability in a particular area.
+
+You need access to passive candidates — those who are settled in their current roles and will only move for the right opportunity, actively presented to them. Other channels have failed or are unlikely to work: job boards, LinkedIn advertising, and referral schemes consistently underperform at senior levels because the most sought-after executives are simply not looking.
+
+The cost of getting the appointment wrong is high. Research consistently shows that a failed senior hire costs between three and five times the annual salary when you account for severance, lost momentum, team disruption, and the opportunity cost of re-running the search. When the downside of failure is that significant, the 25–35% search fee represents sound risk management rather than an optional extra.`,
+      },
+      {
+        h: 'How Much Do They Cost?',
+        b: `UK retained executive search fees typically fall in the range of 25%–35% of the first year's total compensation package — base salary, bonus, and in some cases the value of benefits. A fee of 30% of base salary is most commonly quoted, though firms serving the FTSE 100 or highly specialist sectors frequently command 33%–35%.
+
+The fee is usually structured across three equal instalments: the first on engagement (when the search commences), the second on presentation of the shortlist, and the third on acceptance of the offer. This phased structure protects both parties — the search firm is not bearing the entire financial risk, and the client is not paying the full amount before value has been demonstrated.
+
+Most search firms charge expenses on top of the professional fee — typically 10%–15% of the fee itself — covering research, travel, advertising where used, and assessment tools. These should be itemised and agreed in the engagement letter.
+
+Guarantee periods vary by firm but most offer a repeat search at no additional professional fee if the placed candidate leaves voluntarily or is dismissed for performance reasons within six to twelve months. The terms — and any exclusions — should be examined carefully before signing.`,
+      },
+      {
+        h: 'Headhunter vs Recruitment Agency',
+        b: `The distinction is often misunderstood, and the terms are sometimes used interchangeably — incorrectly. A recruitment agency advertises a role, screens inbound applications, and presents the strongest candidates to the client. This model works well for roles where there is a ready supply of active candidates — management, specialist, and mid-level positions where advertising delivers a workable applicant pool.
+
+A headhunter maps the entire available market and approaches suitable candidates directly — whether or not they are looking. This model is necessary when the best candidates are not applying anywhere because they are not looking, when discretion is required, or when the role is sufficiently senior that advertising it publicly is not appropriate.
+
+Operationally: agencies fill roles from 15%–20% of the talent market (active job seekers). Headhunters access the other 80% — the passive majority. The fee differential (15–25% contingent versus 25–35% retained) reflects not just the method but the risk allocation, the depth of service, and the quality of assessment that a retained engagement delivers.
+
+The practical summary: headhunters find people; agencies wait for people to find them. For senior roles where the best candidates are settled and successful in their current positions, only headhunting reaches them.`,
+      },
+      {
+        h: 'Frequently Asked Questions',
+        b: `**How long does an executive search take?** A typical search for a director-level role takes 8–14 weeks from briefing to offer acceptance. CEO and board-level searches typically run 16–20 weeks, reflecting the smaller candidate pool, additional assessment requirements, and longer notice periods involved.
+
+**Do headhunters offer guarantees?** Yes. Most retained search firms provide a guarantee period of 6–12 months. If the placed candidate leaves voluntarily or is dismissed for performance reasons within that period, the firm will conduct a replacement search at no additional professional fee. Exclusions typically include redundancy due to restructuring.
+
+**What are off-limits restrictions?** Once a headhunter places a candidate in your organisation, that candidate — and often their immediate team — becomes "off-limits" to the firm for a defined period, typically 12–24 months. This means the firm cannot approach your new hire on behalf of another client. It is an important protection for the client organisation and a sign of professional integrity from the search firm.
+
+**Do headhunters actively promote diversity?** Yes — and proactive search is structurally better for diversity than advertising. Rather than filtering from whoever applies (who tend to be homogeneous in application behaviour), headhunters map the full market and can actively seek out underrepresented candidates. Many firms operate specialist diversity-focused practice areas and have built proprietary databases of senior candidates from underrepresented groups.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'How Much Does a Headhunter Cost?', href: '/guides/headhunter-costs/' },
+      { label: 'Headhunter vs Recruitment Agency', href: '/guides/headhunter-vs-recruiter/' },
+      { label: 'The Executive Search Process: Step by Step', href: '/guides/executive-search-process/' },
+      { label: 'Retained vs Contingent Search: Key Differences', href: '/comparisons/retained-vs-contingent/' },
+    ],
+  },
+
+  {
+    id: 2,
+    slug: 'headhunter-costs',
+    icon: '💷',
+    tag: 'Most Popular',
+    time: '12 min read',
+    title: 'How Much Does a Headhunter Cost in the UK?',
+    subtitle: 'A transparent, complete breakdown of executive search fees — pricing models, typical percentages, what influences cost, and how to assess ROI.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'The Short Answer',
+        b: `Retained executive search in the UK typically costs 25%–35% of the candidate's first-year base salary, with 30% being the most common headline rate for mid-market roles. The actual fee depends on the seniority of the role, the complexity of the search, the sector, and the search firm engaged. Minimum fees of £30,000–£40,000 are standard at reputable firms, regardless of the salary level.
+
+The following table provides indicative fee ranges across common salary bands:
+
+| Salary | At 25% | At 30% | At 35% |
+|---|---|---|---|
+| £100,000 | £25,000 | £30,000 | £35,000 |
+| £150,000 | £37,500 | £45,000 | £52,500 |
+| £200,000 | £50,000 | £60,000 | £70,000 |
+| £300,000 | £75,000 | £90,000 | £105,000 |
+| £500,000 | £125,000 | £150,000 | £175,000 |
+
+Contingency recruitment (no placement, no fee) typically costs 15%–25% of base salary for senior roles, but delivers a very different level of service — and reaches a much smaller segment of the available talent market.`,
+      },
+      {
+        h: 'Retained Fees: How They Work',
+        b: `The retained model involves three staged payments, each typically representing one-third of the total professional fee. The first instalment — the retainer — is paid on engagement, before the search begins. This signals commitment from the client and enables the search firm to dedicate a senior team to the assignment without the financial risk of a speculative search. The second instalment falls due on presentation of the shortlist — typically four to eight weeks into the search. The third and final instalment is payable on acceptance of the offer by the successful candidate.
+
+This structure has several practical implications. The search firm is not incentivised to rush the process or push an unsuitable candidate through simply to secure payment. The client's financial commitment is spread across the engagement, reducing the upfront burden. And crucially, the phased structure means the search firm remains invested in quality at each stage — a poor shortlist may mean the second instalment is delayed or disputed.
+
+Expenses are charged in addition to the professional fee. A typical expenses allowance is 10%–15% of the professional fee, covering research costs, travel, psychometric assessments, and any specialist tools or databases used during the search. All expense categories and estimated amounts should be itemised in the engagement letter before the search commences.`,
+      },
+      {
+        h: 'Contingent Fees: How They Work',
+        b: `Contingent search — sometimes called contingency recruitment — operates on a no-placement, no-fee basis. The recruiter bears all the financial risk of the search: if they do not place a candidate, they receive nothing. In theory, this makes contingent search attractive to clients. In practice, it creates a series of structural problems that compound at senior levels.
+
+Because the recruiter is working speculatively, they will typically be working multiple assignments simultaneously, prioritising whichever they are closest to completing. The depth of search is necessarily shallower — most contingent recruiters work from their existing database and LinkedIn, rather than conducting systematic market mapping. And because multiple agencies are often briefed on the same role, the candidate experience is fragmented and occasionally chaotic.
+
+For roles above £100,000, the apparent cost saving of contingent fees (15–25% versus 25–35% retained) is frequently illusory. Longer time-to-hire, lower-quality shortlists, and a higher risk of a failed placement mean the true cost of contingent search often exceeds that of a well-run retained engagement.`,
+      },
+      {
+        h: 'What Influences the Fee?',
+        b: `**Seniority of the role.** The higher the salary and the more strategic the appointment, the higher the percentage a search firm will charge. Board advisory work and CEO appointments for major organisations routinely attract fees at 33%–35% or above. The rationale: the complexity of the search, the seniority of the consultants involved, and the risk management required all increase with seniority.
+
+**Sector and candidate scarcity.** Searches in sectors with small, specialised talent pools — life sciences, private equity, quantitative finance — command premium fees because the research effort is greater and the candidate relationships take years to build. Generalist roles in competitive sectors with broad talent pools will typically attract fees at the lower end of the range.
+
+**Search complexity and geography.** A domestic search for a well-defined role in a large talent pool is simpler than an international search for a niche position requiring specific industry experience and language skills. Cross-border searches, particularly those spanning multiple geographies, often carry a premium.
+
+**Firm type and brand.** The major global search firms (Korn Ferry, Spencer Stuart, Egon Zehnder, Russell Reynolds) typically charge at the top of the fee range. Boutique specialist firms may offer more competitive rates, particularly for searches within their core sector expertise, while delivering equivalent or superior results for specific mandates.`,
+      },
+      {
+        h: 'Is a Headhunter Fee Worth It?',
+        b: `The question of ROI on executive search fees is best answered by examining the cost of the alternative: a failed senior hire. Research from various sources, including the CIPD and specialist HR consultancies, consistently estimates that a failed senior appointment costs between three and five times the annual salary when all costs are factored in — severance, team disruption, lost momentum on strategic priorities, the opportunity cost of the months before the problem is acknowledged, and the cost of re-running the search.
+
+For a £200,000 base salary appointment, the downside of failure is £600,000–£1,000,000. The search fee at 30% is £60,000 — roughly seven to ten pence in the pound of the downside. Framed this way, the fee is not a cost but a risk management investment, and the question is not "can we afford a headhunter?" but "can we afford not to use one?"
+
+The ROI case is strongest for roles that are strategically critical (CEO, CFO, divisional managing directors), roles where failure would be highly visible, and roles where the incumbent will have a direct and significant impact on financial performance.`,
+      },
+      {
+        h: 'How to Negotiate Headhunter Fees',
+        b: `Fee negotiation is legitimate and common, but it is worth understanding what you can and cannot reasonably expect to negotiate on. Volume is the most powerful lever: if you are likely to commission multiple searches in a year, most firms will offer a framework rate — typically 1%–3% below their standard fee — in exchange for preferred supplier status. This is worth formalising in a master services agreement.
+
+You can often negotiate a salary cap — agreeing that the fee is calculated against the budgeted salary rather than the actual offer, capping your exposure if the hire requires a higher salary than anticipated. Similarly, some clients negotiate a fee ceiling — a maximum cash amount regardless of the percentage and final salary.
+
+What you should not try to negotiate: the retainer structure itself, or the instalment schedule. Firms that agree to back-load the fee so that most is payable only on placement are moving structurally toward contingency — and the quality of engagement will reflect it. The retainer exists to ensure committed, senior-level resource on your search from day one. Undermining it undermines the quality of the outcome.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'What is a Headhunter?', href: '/guides/what-is-a-headhunter/' },
+      { label: 'Retained vs Contingent Search', href: '/comparisons/retained-vs-contingent/' },
+      { label: 'Use Our Fee Estimator', href: '/estimator/' },
+      { label: 'The Real Cost of a Bad Senior Hire', href: '/guides/bad-hire-cost/' },
+    ],
+  },
+
+  {
+    id: 3,
+    slug: 'headhunter-vs-recruiter',
+    icon: '⚖️',
+    tag: 'Comparison',
+    time: '10 min read',
+    title: 'Headhunter vs Recruitment Agency: What\'s the Difference?',
+    subtitle: 'A clear, honest comparison of executive search and recruitment agencies — how they work, when to use each, and what the difference means for the quality of your hire.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'The Core Difference',
+        b: `The fundamental distinction between a headhunter and a recruitment agency comes down to one word: direction. Recruitment agencies work inbound — they advertise a role, attract applications, screen the responses, and present the strongest candidates. Headhunters work outbound — they map the market, identify specific individuals, approach them directly, and create interest in an opportunity those individuals were not previously considering.
+
+This directional difference has profound implications for who you reach. Advertising a role, however well-written and widely distributed, only reaches people who are actively looking for a new position — typically 15%–20% of the senior talent market at any given time. The other 80% — settled executives who are performing well, not browsing job boards, and not registered with agencies — are only reachable through proactive, direct approaches. This is what headhunters do.
+
+For mid-level and specialist roles where there is a healthy supply of active candidates, recruitment agencies are often the right choice: faster, lower cost, and sufficient for the purpose. For senior, strategic, or confidential appointments, the agency model is structurally unsuited to reaching the best people.`,
+      },
+      {
+        h: 'Side-by-Side Comparison',
+        b: `The following table sets out the key differences across the dimensions that matter most to hiring organisations.
+
+| Dimension | Recruitment Agency | Executive Search (Headhunter) |
+|---|---|---|
+| Fee model | Contingent (15–25%) | Retained (25–35%) |
+| Candidate source | Active job seekers | Passive + active market |
+| Market coverage | ~15–20% of talent pool | ~80–100% of talent pool |
+| Confidentiality | Limited | High |
+| Typical role level | Up to senior manager | Director, VP, C-suite, board |
+| Exclusivity | Usually non-exclusive | Exclusive (retained) |
+| Assessment depth | Screening and CV review | Competency interviews, references, reports |
+| Aftercare | Usually none | Typically 3–6 months |
+| Risk if unsuccessful | No fee (contingent) | Repeat search guarantee |`,
+      },
+      {
+        h: 'When to Use Each',
+        b: `**Use a recruitment agency when:** the role is below director level; the market has a ready supply of active candidates; speed is the primary consideration; budget is constrained; or you are filling multiple similar roles where volume matters more than bespoke assessment.
+
+**Use a headhunter when:** the role is director level or above; the best candidates are unlikely to be actively looking; confidentiality is required; you need proactive access to the passive market; or the cost of a failed appointment justifies a more rigorous, higher-investment process.
+
+There is a grey zone — head of function roles, specialist technical leadership positions, newly created roles with ambiguous requirements — where the right approach depends on the specific context. A useful rule of thumb: if you can name five people who could do the job well, and all five are almost certainly not looking for a new role, you need a headhunter.`,
+      },
+      {
+        h: 'The Quality Difference',
+        b: `Beyond market coverage, retained executive search delivers a fundamentally different quality of assessment. Recruitment agencies typically conduct first-stage screening interviews and CV reviews. Executive search firms conduct multi-stage competency interviews, often supplemented by psychometric assessments, structured 360-degree referencing with former colleagues, and detailed written candidate reports for every shortlisted individual.
+
+This depth of assessment is not a luxury — it is the primary means of managing the risk of a senior appointment. A CEO, CFO, or divisional MD will have a direct and sustained impact on the organisation's performance. Understanding not just their technical competence but their leadership style, cultural fit, motivational drivers, and potential derailers requires the kind of intensive engagement that only a retained process makes possible.
+
+The written candidate report, in particular, is a distinctive output of executive search. A well-prepared search firm will provide the hiring committee with a detailed, structured assessment of each shortlisted candidate — covering career narrative, key achievements, competency evidence, concerns and development areas, and an assessment of fit against the brief. This enables the client to enter interviews well-briefed and focused on the areas that matter most.`,
+      },
+      {
+        h: 'Common Misconceptions',
+        b: `**"Headhunters only work with candidates who are already looking."** The opposite is true. The defining value of executive search is the ability to approach and interest people who are not looking. The best candidates at any given moment are almost invariably not browsing job boards.
+
+**"Using multiple agencies gives you wider coverage."** At senior levels, briefing multiple contingent agencies on the same role typically leads to worse outcomes — candidates are approached multiple times, the confidentiality of the search is compromised, and the agencies race to present CVs without adequate assessment. Exclusivity, properly managed, delivers better results.
+
+**"A headhunter will only put forward their existing contacts."** A reputable search firm will conduct systematic market mapping for each assignment, regardless of prior relationships. The firm's network is a starting point, not the limit of the search. Clients should ask specifically how the firm proposes to identify candidates beyond their existing database.
+
+**"The cheapest fee is always the best deal."** Fee level and value are poorly correlated at senior levels. A firm charging 25% that takes three months longer, delivers a weaker shortlist, and provides no aftercare may cost significantly more in aggregate than a firm charging 32% that places the right person in twelve weeks.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'What is a Headhunter?', href: '/guides/what-is-a-headhunter/' },
+      { label: 'Headhunter vs Recruitment Agency', href: '/guides/headhunter-vs-recruiter/' },
+      { label: 'Headhunter vs LinkedIn Recruiter', href: '/comparisons/headhunter-vs-linkedin/' },
+      { label: 'Headhunter vs RPO', href: '/comparisons/headhunter-vs-rpo/' },
+    ],
+  },
+
+  {
+    id: 4,
+    slug: 'how-to-choose-a-headhunter',
+    icon: '✅',
+    tag: 'Decision Guide',
+    time: '9 min read',
+    title: 'How to Choose a Headhunter',
+    subtitle: 'A practical framework for evaluating and selecting the right executive search firm for your most important appointments.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'Why Choosing Well Matters',
+        b: `The selection of an executive search firm is itself a consequential decision. The wrong firm — poor sector knowledge, over-reliance on their existing network, inexperienced consultants, or misaligned incentives — can result in a slow, shallow search that misses the best candidates and wastes months of management time. The right firm becomes a genuine strategic partner, bringing market intelligence, candidate insight, and rigorous assessment capability that extends well beyond simple recruitment.
+
+Most organisations do not hire at board or C-suite level frequently enough to have well-developed views on which search firms are best for which appointments. This guide sets out the evaluation criteria that consistently distinguish excellent search firms from merely adequate ones.`,
+      },
+      {
+        h: 'The Seven Evaluation Criteria',
+        b: `**1. Genuine sector expertise.** The consultant leading your search should have demonstrable, current knowledge of your sector — not a generalist who has read the briefing document. Ask for specific examples of searches completed in your sector in the last two years, including role title, organisation type, and outcome.
+
+**2. Relevant assignment experience.** Sector expertise must be complemented by experience at the relevant seniority level. A firm with strong mid-market experience may not be the right choice for a FTSE 250 CEO search. Ask for case studies of comparable assignments — similar role, similar organisation type, similar seniority.
+
+**3. Off-limits and conflict management.** Every client the firm has placed a candidate into creates a pool of individuals they cannot approach for a defined period. Understand the firm's off-limits policy: how long is the restriction, does it apply to the individual or the team, and — critically — how many of the potential candidates for your role sit within their off-limits pool.
+
+**4. Consultant seniority and continuity.** Establish who will actually lead the search. It is common for a senior partner to win the assignment and then hand it to a junior associate to execute. Ask specifically who will lead the research, who will conduct candidate interviews, and who will be your primary point of contact throughout the search.
+
+**5. Candidate assessment capability.** Understand the firm's assessment methodology beyond CV screening. Do they use psychometric tools? If so, which ones and how are results interpreted? Do they conduct structured competency interviews? What does their written candidate assessment include?
+
+**6. Reference quality.** Ask for referees from completed searches — ideally the decision-maker (CEO, Chair, or CHRO) who commissioned the search, not just a general contact. A firm confident in its work will provide strong referees readily.
+
+**7. Cultural fit with your organisation.** The search firm will be representing your organisation to candidates in the market. Their communication style, discretion, and professionalism will shape how your opportunity is perceived by high-quality candidates who have choices. Choose a firm whose people you would be comfortable representing you in the market.`,
+      },
+      {
+        h: 'Questions to Ask in a Pitch Meeting',
+        b: `The credential meeting or pitch is your primary opportunity to assess the firm before committing. Use it well. Beyond the standard questions about process and timeline, probe on the following areas.
+
+**"Who specifically will lead this search, and what is their experience with comparable assignments?"** Force a direct answer — not a description of the team's collective experience, but the specific background of the individual who will own the project.
+
+**"How many of the likely candidates for this role are within your off-limits pool?"** A candid answer to this question tells you a great deal about the firm's honesty and the scale of any potential conflict.
+
+**"Walk me through the most comparable search you have completed in the last eighteen months. What made it difficult, and how did you handle that?"** Real search experience involves navigating complications — candidates who withdraw, clients who change the brief, markets that are unexpectedly thin. A firm that can only describe smooth processes has either been lucky or is not being candid.
+
+**"What will you tell us that we do not already know about the candidate market for this role?"** The answer to this question is the clearest signal of genuine sector expertise versus generic search capability. A strong firm will have current, specific intelligence about the relevant talent pool.`,
+      },
+      {
+        h: 'Red Flags',
+        b: `**The senior partner attends the pitch but hands to junior staff immediately.** This is the single most common complaint from clients who have had poor search experiences. Establish upfront — and in writing — who will lead each stage of the search.
+
+**Inability to name specific candidates or organisations in the talent map.** A firm claiming genuine sector expertise should be able to sketch the relevant talent market in the pitch meeting, naming at least the key organisations and commenting on the types of individuals they expect to find. Vague generalities suggest limited current knowledge.
+
+**No off-limits policy or dismissiveness about conflicts.** A firm that cannot clearly articulate its off-limits restrictions, or that minimises their significance, is either disorganised or not being candid. Either is a concern.
+
+**Pressure to sign quickly.** Legitimate urgency about starting a search is understandable, but pressure to sign the engagement letter in the credential meeting — before you have had time to meet other firms, check references, or read the terms carefully — is a warning sign.
+
+**Fee below 25% for a retained search.** This is rare at reputable firms, but a retained fee below 25% often signals either over-commitment (the firm has taken on more than it can service well) or a structurally contingent engagement dressed as retained. Either creates misaligned incentives.`,
+      },
+      {
+        h: 'What AESC Accreditation Means',
+        b: `The Association of Executive Search and Leadership Professionals (AESC) is the global professional body for the executive search industry. AESC member firms commit to a defined standard of professional practice, including ethical candidate treatment, client confidentiality, accuracy of representation, and standards of assessment. Membership is not automatic — firms apply and must meet the organisation's criteria.
+
+AESC accreditation is not a guarantee of quality, but it is a meaningful signal of professional standards and commitment to ethical practice. For clients who are unfamiliar with the search market and assessing firms for the first time, restricting consideration to AESC member firms provides a useful baseline quality filter. The AESC website lists all member firms by geography and sector specialism.`,
+      },
+      {
+        h: 'How Many Firms to Meet',
+        b: `For most senior appointments, meeting two to three search firms in competitive pitch is appropriate. One firm gives you no benchmark for comparison. Four or more becomes unwieldy and sends a signal to the market that you are unlikely to be a committed, engaged client — which can subtly affect the quality of the firms willing to pitch for your work.
+
+For CEO and board-level searches, it is common to meet three firms and request written proposals from all three before making a decision. This structured approach enables rigorous comparison across the evaluation criteria above and signals to the winning firm that the mandate has been awarded thoughtfully — which tends to correlate with a productive working relationship throughout the search.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'What is a Headhunter?', href: '/guides/what-is-a-headhunter/' },
+      { label: 'The Executive Search Process: Step by Step', href: '/guides/executive-search-process/' },
+      { label: 'Headhunter vs Internal Talent Acquisition', href: '/comparisons/headhunter-vs-internal/' },
+      { label: 'How to Brief a Headhunter', href: '/guides/search-brief/' },
+    ],
+  },
+
+  {
+    id: 5,
+    slug: 'executive-search-process',
+    icon: '📋',
+    tag: 'Process Guide',
+    time: '11 min read',
+    title: 'The Executive Search Process: Step by Step',
+    subtitle: 'A detailed walkthrough of how a retained executive search works from first briefing to successful placement — what happens, when, and why.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'Overview',
+        b: `A well-run retained executive search follows a structured, phased process that typically spans ten to sixteen weeks from briefing to offer acceptance, with a post-placement period of three to six months. The exact timeline depends on the seniority and complexity of the role, the breadth of the candidate market, and how quickly the client can move through interview stages.
+
+Understanding the process in detail allows hiring organisations to set realistic expectations, plan their own time commitment appropriately, and identify where decisions or responsiveness from the client side will have the greatest impact on timeline and outcome. The process described below reflects best practice at a high-quality retained search firm.`,
+      },
+      {
+        h: 'Stage 1: Briefing (Weeks 1–2)',
+        b: `The briefing phase is the foundation of the entire search. Its purpose is to develop a deep, nuanced understanding of the role, the organisation, and the specific qualities that will define success in this appointment. A superficial briefing leads to a superficial search — the most avoidable cause of search failure.
+
+A thorough briefing process involves multiple conversations: with the CEO or Chair (to understand strategic context and leadership expectations), with the CHRO or HR Director (for process requirements, cultural parameters, and compensation framework), with the outgoing incumbent or relevant peers where appropriate (for operational insight), and sometimes with the relevant Board sub-committee for executive or NED appointments.
+
+The outputs of the briefing are the role specification (a detailed, structured document covering purpose, responsibilities, reporting relationships, and key challenges) and the candidate profile (the specific competencies, experience, and personal qualities that define the target candidate). These documents are working tools, not marketing materials — they are used internally to guide the research and approach phases, and shared with candidates who have expressed genuine interest.`,
+      },
+      {
+        h: 'Stage 2: Research and Market Mapping (Weeks 2–4)',
+        b: `Research and market mapping is the phase that most distinguishes executive search from other forms of recruitment, and it is largely invisible to the client. The research team — led by the consultant and supported by specialist researchers — systematically identifies every potential candidate in the relevant market.
+
+The mapping process typically covers: organisations of comparable scale and complexity in the target sector; adjacent sectors where relevant transferable experience exists; functional specialists who may have moved into different sectors; international candidates where the brief permits; and individuals known through the firm's network who fit the profile. A comprehensive map for a complex search may identify 150–300 potential candidates before any contact is made.
+
+From the full map, the research team identifies a longlist of typically 20–40 individuals who most closely match the candidate profile. This longlist is reviewed and refined by the lead consultant before the approach phase begins. In some searches, a longlist document is shared with the client for review at this stage, allowing the hiring organisation to flag any individuals they already know, have previously considered, or wish to exclude.`,
+      },
+      {
+        h: 'Stage 3: Candidate Approach (Weeks 3–7)',
+        b: `The approach phase is where the headhunter's interpersonal skills and market relationships become decisive. Each individual on the longlist is contacted personally — typically by the lead consultant or a senior associate — to present the opportunity and gauge initial interest. This is not a mass mailing or a LinkedIn InMail campaign: it is a personalised, discreet conversation tailored to the individual's background, current position, and likely motivations.
+
+Most people contacted will not be interested — they are settled in their current roles, have recently started a new position, or the opportunity does not resonate with their career direction. A typical approach to 30–40 longlist candidates will generate genuine interest from 10–15, of whom 6–10 will agree to an exploratory conversation with the search firm. These initial conversations are informal and informative — they allow the consultant to assess genuine fit and interest before committing both parties to a formal interview process.
+
+The approach phase also requires careful management of candidate sensitivities. Senior executives who are actively contacted are, by definition, potentially visible in the market — and many will not want their current employer to know they are open to conversations. Discretion in how and when they are approached, and how their interest is recorded and communicated, is a non-trivial responsibility.`,
+      },
+      {
+        h: 'Stage 4: Assessment (Weeks 5–10)',
+        b: `Candidates who have expressed genuine interest and passed initial screening proceed to formal assessment. At a minimum, this involves structured competency-based interviews conducted by the lead consultant — covering leadership style, key career achievements, management approach, strategic thinking, and motivations. These interviews typically last 90 minutes to two hours.
+
+Many search firms supplement the structured interview with psychometric assessment — personality profiles (commonly the Hogan suite or similar) and cognitive ability testing. These tools are most valuable when interpreted in the context of the specific role requirements, and their output should always be discussed with the candidate rather than presented to the client as stand-alone data.
+
+Reference checks at this stage are distinct from the post-offer referencing that many organisations conduct. Search firms often conduct informal, structured conversations with former colleagues, line managers, or direct reports of shortlisted candidates — with the candidate's knowledge — to provide an additional perspective on leadership style and impact. These "referencing conversations" are particularly valuable for senior appointments where the candidate's influence on team culture and organisational performance will be significant.`,
+      },
+      {
+        h: 'Stage 5: Client Interviews (Weeks 8–12)',
+        b: `The shortlist presentation marks a significant milestone in the search. The client receives a written report covering typically four to six candidates, each assessed against the brief. The shortlist report for each candidate includes: career summary and key achievements; specific evidence against each competency in the brief; assessment of cultural fit and leadership style; any concerns or development areas; and an overall assessment narrative from the lead consultant.
+
+The search firm will typically present the shortlist in a meeting with the hiring committee, walking through each candidate in detail and fielding questions. This is also the moment to agree the interview process — how many rounds, who is involved, what format each interview will take, and any additional assessment steps (case studies, presentations, psychometric tools).
+
+Interview scheduling at senior level requires careful coordination — candidates who are currently employed cannot always be available at short notice, and interview windows need to be agreed in a way that respects their current positions. The search firm typically manages all scheduling and briefing of interviewers, and provides post-interview feedback on both sides.`,
+      },
+      {
+        h: 'Stage 6: Offer and Negotiation (Weeks 11–14)',
+        b: `Offer management is one of the most practically valuable aspects of retained executive search, and one that is frequently underestimated by clients approaching a senior hire for the first time. Senior candidates almost always have choices — they are high performers who could be approached again quickly if this opportunity falls through — and the offer process requires careful structuring and sensitive handling.
+
+The search firm acts as an honest intermediary: communicating the client's position, articulating the candidate's expectations and priorities, and helping both parties understand the full shape of the package — not just base salary but bonus structure, equity or LTIP, benefits, notice period, and any role-specific considerations such as relocation support or sign-on provisions.
+
+Counter-offer management is a specific risk at senior levels. A candidate who has spent twelve weeks in a search process, who has invested significant time and emotional energy in the opportunity, and who then receives a counter-offer from their current employer faces a genuinely difficult decision. The search firm's role is to have managed the candidate's expectations and motivations throughout the process so that the counter-offer risk is understood and prepared for well before the offer is made.`,
+      },
+      {
+        h: 'Stage 7: Onboarding (Months 1–6)',
+        b: `Most retained search firms provide a formal aftercare period following the placement, typically three to six months. During this period, the lead consultant maintains regular contact with both the placed candidate and the client — checking in on integration progress, flagging any early concerns, and providing a neutral channel for either party to raise issues that might be difficult to address directly.
+
+The value of this aftercare period is often underestimated. The first ninety days of a senior appointment are disproportionately important: relationships are formed, assumptions are tested, and the new executive's positioning within the organisation is established in ways that can be difficult to reset later. Early identification of misalignments — between the new hire's expectations and the reality of the role, or between their leadership approach and the culture of the team — allows them to be addressed constructively before they become entrenched.
+
+The guarantee period — during which the search firm commits to a repeat search at no additional professional fee if the placement fails — runs concurrently with the aftercare period in most engagements. This alignment of incentives means the search firm has a direct commercial interest in a successful integration, not just a successful placement.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'What is a Headhunter?', href: '/guides/what-is-a-headhunter/' },
+      { label: 'How Much Does a Headhunter Cost?', href: '/guides/headhunter-costs/' },
+      { label: 'How to Write an Executive Search Brief', href: '/guides/search-brief/' },
+      { label: 'Retained vs Contingent Search', href: '/comparisons/retained-vs-contingent/' },
+    ],
+  },
+
+  {
+    id: 6,
+    slug: 'when-to-use-a-headhunter',
+    icon: '🎯',
+    tag: 'Decision Guide',
+    time: '8 min read',
+    title: 'When Should You Use a Headhunter?',
+    subtitle: 'A clear framework for deciding when retained executive search is the right approach — and when it is not.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'The Decision Framework',
+        b: `The decision to use a headhunter rather than a different hiring approach is not primarily about budget — it is about the nature of the role, the availability of strong candidates through other channels, and the risk profile of getting the appointment wrong. Applied correctly, the decision framework below produces a clear recommendation in most cases.
+
+The key variables are: role seniority (the higher the seniority, the stronger the case for executive search); candidate availability in the active market (the scarcer the active candidates, the stronger the case for proactive search); confidentiality requirements (any requirement for discretion significantly favours the executive search model); and the cost of failure (the higher the stakes, the more the rigour of retained search is justified on a risk-management basis alone).`,
+      },
+      {
+        h: 'When You Should Use a Headhunter',
+        b: `**The role is director level or above.** At this seniority, the best candidates are almost invariably not actively looking. They are performing well in their current roles, not browsing job boards, and not registered with recruitment agencies. Only a proactive, direct approach reaches them.
+
+**You require confidentiality.** If you are replacing an incumbent who has not been told they are leaving, if you do not want competitors to know you are building capability in a particular area, or if the appointment is sensitive for any reason, executive search — with its controlled, one-to-one candidate engagement — is the appropriate model. Advertising a role, or briefing multiple agencies, makes confidentiality impossible to maintain.
+
+**Other channels have not worked.** If you have advertised the role for eight weeks and received no suitable applications, or if your internal recruitment team's approaches have not generated interest from the right calibre of candidate, these are strong signals that the best people are not in the active market. A headhunter's proactive reach into the passive market is the logical next step.
+
+**The appointment is strategically critical.** CEO succession, the appointment of a new CFO in advance of a fundraise, the first commercial director for a scaling business — these appointments have a direct and significant impact on organisational trajectory. The marginal cost of executive search (25–35% of salary) is small relative to the value at stake.
+
+**You want independent, expert assessment.** Beyond candidate identification, retained search firms provide a rigorous independent assessment of every shortlisted candidate. For organisations without deep internal capability in senior-level assessment, this external perspective is itself a significant part of the value delivered.`,
+      },
+      {
+        h: 'When You May Not Need a Headhunter',
+        b: `**The role is below director level.** For senior manager and head of function roles, the active candidate market is generally deep enough for advertising and agency approaches to deliver a workable shortlist. Executive search is unlikely to add proportionate value relative to its cost for roles below the £80,000–£100,000 salary threshold.
+
+**You have a strong internal pipeline.** If your succession planning is mature and you have identified credible internal candidates who genuinely want the role, an internal appointment process is faster, cheaper, and preserves institutional knowledge. A headhunter may be useful for benchmarking internal candidates against the external market — but the full retained search model may not be necessary.
+
+**Time is the primary constraint and the role is well-defined.** For a clearly specified role in a sector with a healthy active candidate market, a well-briefed contingent agency can sometimes deliver faster results than a retained search, which typically requires a minimum of eight to twelve weeks to run properly. If filling the role in four weeks is genuinely the priority and a good-enough candidate is acceptable, this trade-off may be appropriate.`,
+      },
+      {
+        h: 'The Cost of Not Using a Headhunter',
+        b: `The failure to use executive search for an appropriate appointment is rarely cost-free. The most visible cost is direct: a poor hire at senior level costs three to five times the annual salary when severance, team disruption, lost momentum, and re-search costs are included. Less visible but equally real is the opportunity cost — the months during which the wrong person occupied a leadership role, making decisions, setting culture, and potentially creating problems that persist well after their departure.
+
+Research by the executive coaching firm Heidrick & Struggles, among others, consistently finds that senior hire failure rates are highest when the hiring process underinvested in candidate assessment — relying on CV review and unstructured interviews rather than the competency-based, multi-source assessment that characterises rigorous executive search.
+
+The calculus is straightforward: for roles where the best candidate is passive, where confidentiality matters, and where the cost of failure is high, the retained search fee is not a discretionary spend but a risk management necessity.`,
+      },
+      {
+        h: 'A Simple Scoring Framework',
+        b: `Use the following framework to guide your decision. Score each factor 1–3 and total the results.
+
+| Factor | Score 1 | Score 2 | Score 3 |
+|---|---|---|---|
+| Role seniority | Up to senior manager | Director / VP | C-suite / Board |
+| Candidate market | Active market sufficient | Mixed | Primarily passive |
+| Confidentiality | Not required | Preferable | Essential |
+| Previous search attempts | Not yet tried | Failed partially | Failed fully |
+| Cost of bad hire | Manageable | Significant | Organisation-critical |
+
+**Score 5–8:** Standard recruitment or contingent agency approach is likely sufficient.\n**Score 9–12:** Strong case for retained executive search.\n**Score 13–15:** Retained executive search is the clear recommendation.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'Do I Need a Headhunter? Take the Quiz', href: '/quiz/' },
+      { label: 'What is a Headhunter?', href: '/guides/what-is-a-headhunter/' },
+      { label: 'Headhunter vs Recruitment Agency', href: '/guides/headhunter-vs-recruiter/' },
+      { label: 'Headhunter vs Internal Talent Acquisition', href: '/comparisons/headhunter-vs-internal/' },
+    ],
+  },
+
+  {
+    id: 7,
+    slug: 'retained-vs-contingent',
+    icon: '🔄',
+    tag: 'Comparison',
+    time: '9 min read',
+    title: 'Retained vs Contingent Executive Search',
+    subtitle: 'Understanding the structural differences between retained and contingent search — and what they mean for the quality and reliability of your senior hire.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'The Fundamental Difference',
+        b: `Retained executive search and contingent recruitment differ in one foundational respect: when the fee is paid. In retained search, the client pays a portion of the fee upfront — before the search begins — securing the firm's exclusive, committed engagement on the assignment. In contingent recruitment, the fee is paid only on successful placement; if no candidate is hired, no fee is paid.
+
+This difference in fee structure creates entirely different incentive landscapes, which in turn drive entirely different search behaviours. Understanding those behaviours is essential for any organisation commissioning a senior search — because the fee model you choose shapes the quality of the process and the outcome you can expect.
+
+In the UK market, the terms are sometimes blurred: agencies occasionally describe themselves as offering "retained" elements when they are structurally contingent, and boutique search firms may offer hybrid models. The test of whether a search is genuinely retained is simple: does the firm receive a meaningful payment before any candidate is presented? If not, it is functionally contingent, regardless of how it is described.`,
+      },
+      {
+        h: 'Incentive Structures',
+        b: `The retained model creates aligned incentives between client and search firm. Because the firm has already received a portion of its fee, it is not under pressure to place any candidate to generate revenue. This means it can take the time required to map the market properly, approach the most suitable candidates (who may require multiple conversations before expressing genuine interest), and conduct thorough assessment before presenting a shortlist. The firm's commercial interest is in completing a high-quality search that delivers a successful placement — not in presenting candidates as quickly as possible.
+
+The contingent model creates misaligned incentives by design. Because the recruiter earns nothing until a placement is made, their incentive is to present candidates rapidly and advocate for their own candidates over alternatives. Working multiple mandates simultaneously is the norm — the recruiter's portfolio approach means no single search receives dedicated, senior-level attention. The pressure to complete means that the depth of candidate assessment is typically much shallower, and the temptation to present good-enough rather than best-available candidates is structurally embedded.
+
+This is not a criticism of individual contingent recruiters — many are highly professional — but of the model itself. Fee structure drives behaviour, and the contingent model consistently drives behaviour that is suboptimal for senior appointments.`,
+      },
+      {
+        h: 'Detailed Comparison',
+        b: `The following table compares the two models across the dimensions most relevant to senior hiring decisions.
+
+| Dimension | Retained Search | Contingent Recruitment |
+|---|---|---|
+| Fee timing | Staged (at engagement, shortlist, offer) | On placement only |
+| Typical fee | 25%–35% of salary | 15%–25% of salary |
+| Exclusivity | Always exclusive | Rarely exclusive |
+| Market coverage | Full market mapping | Active candidates + database |
+| Candidate assessment | Deep (competency interviews, references, reports) | Light (screening, CV review) |
+| Consultant seniority | Senior partner led | Variable |
+| Search depth | Systematic, comprehensive | Database and network first |
+| Confidentiality | High | Limited |
+| Client resource commitment | Significant (multiple briefing meetings, feedback cycles) | Light |
+| Repeat search guarantee | Standard (6–12 months) | Rare |
+| Typical use case | C-suite, board, director-level | Senior manager and below |`,
+      },
+      {
+        h: 'When to Use Each',
+        b: `**Retained search is appropriate when:** the role is strategically critical; the best candidates are passive; confidentiality is required; the cost of failure is high; or you want the depth of assessment and market coverage that only a committed, exclusive engagement delivers.
+
+**Contingent recruitment is appropriate when:** the role is below director level; the active candidate market is sufficient; speed is the primary driver; or you are filling multiple similar positions where a volume-based approach is efficient.
+
+A common mistake is to use contingent recruitment for a role that structurally requires retained search — because it appears cheaper. The risks of that decision are: weaker candidate coverage, shallower assessment, a higher probability of placing the wrong person, and ultimately a higher total cost when the hire fails or underperforms. The apparent saving on the fee is frequently outweighed by the cost of the outcome.`,
+      },
+      {
+        h: 'Common Misconceptions',
+        b: `**"Retained search is always slower."** Not true. A well-run retained search with a committed client who can move quickly through interview stages can complete in ten to twelve weeks. Contingent searches that fail to generate strong candidates can drag on for months as the client cycles through agencies.
+
+**"Contingent is lower risk because you only pay for success."** The risk is not in the fee — it is in the hire. A contingent placement that fails costs three to five times the salary in aggregate. The absence of a fee on a bad placement does not make the placement cost-free.
+
+**"You can use contingent agencies in parallel with a retained firm."** Most retained search firms require exclusivity as a condition of the engagement. Briefing contingent agencies on the same role while a retained search is under way almost always contaminates the search — candidates are approached multiple times, the market learns the role is in play, and the confidentiality the retained firm was engaged to maintain is compromised.
+
+**"Retained search firms just use their existing network."** Reputable retained search firms conduct systematic market mapping for each assignment, regardless of whether they have prior relationships with the relevant candidates. The research phase of a retained search is designed specifically to find the people the firm does not already know.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'Retained vs Contingent Search', href: '/comparisons/retained-vs-contingent/' },
+      { label: 'The Executive Search Process: Step by Step', href: '/guides/executive-search-process/' },
+      { label: 'How Much Does a Headhunter Cost?', href: '/guides/headhunter-costs/' },
+      { label: 'Use Our Fee Estimator', href: '/estimator/' },
+    ],
+  },
+
+  {
+    id: 8,
+    slug: 'search-brief',
+    icon: '📝',
+    tag: 'Template Included',
+    time: '8 min read',
+    title: 'How to Write an Executive Search Brief',
+    subtitle: 'A practical guide to briefing your headhunter effectively — including a template, common mistakes, and how to get the best from the engagement.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'Why the Brief Matters',
+        b: `The quality of an executive search brief is one of the strongest predictors of search success. A well-constructed brief enables the search firm to design a targeted, efficient search strategy, approach candidates with compelling and accurate information about the opportunity, and assess candidates rigorously against a clear and shared standard.
+
+A poor brief — vague on requirements, unrealistic about the candidate profile, or absent of organisational context — leads to wasted approaches, misaligned candidates, and ultimately a search that runs longer and delivers worse outcomes than it should. The investment of time required to produce a thorough brief is returned many times over in search speed and shortlist quality.
+
+The brief is also the primary document that candidate-facing consultants use when approaching potential candidates. Executives who are doing well in their current roles receive multiple approaches: a compelling, specific, and well-contextualised opportunity description is far more likely to generate genuine interest than a vague outline.`,
+      },
+      {
+        h: 'The Seven Core Components',
+        b: `**1. Organisational context.** Not just "who we are" but what the organisation is trying to achieve over the next three to five years, the current leadership structure, and the specific challenges and opportunities the new hire will face. Candidates assess organisations as much as organisations assess candidates — context sells the opportunity.
+
+**2. Role purpose and scope.** A clear statement of why the role exists, what it needs to achieve, the scope of authority and decision-making, and the reporting structure. Where the role is newly created, explain what prompted its creation and what success looks like at twelve months.
+
+**3. Key responsibilities.** The four to six most important things the person in this role must do well. Not a full job description — a prioritised, honest account of where time and energy will be spent.
+
+**4. Required experience.** Specific, non-negotiable background requirements — not a wish list. Every requirement you add to the brief narrows the candidate pool. Be honest about what is truly essential versus what is preferable, and be prepared to defend each requirement in discussion with the search firm.
+
+**5. Competencies and personal qualities.** The behavioural and leadership characteristics that will determine success in this specific organisation, team, and culture — not a generic list of executive competencies. Consider what has made previous holders of this role successful or unsuccessful, and what the organisation's culture rewards.
+
+**6. Compensation and benefits.** A complete picture of the total package: base salary range, bonus structure and targets, equity or LTIP where applicable, pension, benefits, and any non-standard elements. Ambiguity about compensation creates problems at offer stage that are difficult to resolve after the candidate has invested months in the process.
+
+**7. Process and timeline.** Interview stages and format, decision-makers involved, target start date, and any constraints on timing. Candidates with choices will ask how long the process takes — a credible, structured timeline is itself a signal of organisational seriousness.`,
+      },
+      {
+        h: 'Brief Template',
+        b: `Use the following structure as a working template for your search brief.
+
+**Organisation Overview**
+[Legal entity, turnover, headcount, ownership structure, strategic context, current leadership team]
+
+**Role Title and Reporting Line**
+[Title / Reports to / Direct reports / Location / Travel requirements]
+
+**Role Purpose**
+[Two to three sentences on why the role exists and what it must achieve]
+
+**Key Responsibilities**
+[Four to six bullet points, prioritised by importance]
+
+**Required Experience**
+[Non-negotiable background requirements — be specific and honest]
+
+**Preferred Experience**
+[Additional experience that is valued but not essential]
+
+**Competencies and Leadership Style**
+[Behavioural requirements specific to this organisation and team]
+
+**Compensation**
+[Base salary range / Bonus / LTIP / Pension / Benefits / Other]
+
+**Process**
+[Number of interview stages / Format / Decision-makers / Target start date]
+
+**Confidentiality Requirements**
+[Any constraints on how the role is described to candidates, or organisations that must not be approached]`,
+      },
+      {
+        h: 'Common Mistakes',
+        b: `**Writing a job description instead of a brief.** A job description lists everything a role involves. A search brief highlights the four to six things that matter most and provides the context that makes the opportunity compelling. Search consultants need the brief to sell the role; they can construct a job description from it if needed.
+
+**Setting unrealistic experience requirements.** The most common form is the "purple squirrel" — a candidate who has done exactly this role at exactly this type of organisation, in exactly this sector, at exactly this level. Such candidates rarely exist, and searching for them wastes time. Work with the search firm to separate genuine requirements from preferences.
+
+**Leaving compensation undefined.** "Competitive" or "market rate" is not a brief. Candidates with choices need to know whether an opportunity is financially viable before investing time in a process. Ambiguity on compensation tends to surface as a problem at the offer stage — which is the worst possible time.
+
+**Treating the brief as a fixed specification.** The brief should be a working document that is refined as the search progresses. If the first three candidates to express interest share a particular background that was not anticipated, or if the search firm brings market intelligence that challenges an assumption in the brief, the response should be to update the brief — not to defend the original version regardless of evidence.`,
+      },
+      {
+        h: 'Working Document, Not Fixed Specification',
+        b: `One of the most valuable services a search firm provides in the early stages of an engagement is market intelligence — feedback on how the brief lands with the candidate market, which requirements are narrowing the pool unnecessarily, and where the compensation is misaligned with market expectations. This intelligence is only useful if the client is genuinely open to using it.
+
+The briefing process should be iterative. After the first round of candidate approaches, the lead consultant will typically have a clear view of which elements of the brief are resonating and which are creating friction. A structured update meeting at the longlist stage — before the shortlist is finalised — allows both parties to recalibrate the search based on real market data rather than assumptions.
+
+Clients who treat the brief as fixed tend to end up with longer searches and weaker shortlists. Clients who engage actively with the intelligence the search firm brings, and who are willing to refine the specification based on what the market is telling them, consistently achieve better outcomes in shorter timeframes.`,
+      },
+      {
+        h: 'Checklist',
+        b: `Before submitting your brief to the search firm, check the following.
+
+**Completeness:** Does the brief cover all seven core components? Is compensation fully specified? Is the reporting structure clear?
+
+**Realism:** Have you separated genuine requirements from preferences? Is the candidate profile achievable given the salary range and role context? Has the search firm challenged any assumptions you have not tested?
+
+**Clarity:** Would a candidate who knows nothing about your organisation understand why this role exists and what success looks like? Is the organisation's strategic context compelling rather than boilerplate?
+
+**Confidentiality:** Have you specified any organisations that the search firm should not approach (competitors, clients, partners)? Have you confirmed whether the role can be discussed with candidates by name, or whether confidentiality requires it to be presented anonymously at first contact?
+
+**Process:** Do all the relevant decision-makers know the search is under way? Is the interview process agreed and diarised for the expected shortlist date? Is there a clear mandate to move quickly when the right candidate is identified?`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'The Executive Search Process: Step by Step', href: '/guides/executive-search-process/' },
+      { label: 'How to Choose a Headhunter', href: '/guides/how-to-choose-a-headhunter/' },
+      { label: 'Brief a Headhunter Now', href: '/brief/' },
+      { label: 'Download the Brief Template', href: '/resources/' },
+    ],
+  },
+  {
+    id: 9,
+    slug: 'bad-hire-cost',
+    icon: '💸',
+    tag: 'Knowledge Hub',
+    time: '8 min read',
+    title: 'The Real Cost of a Bad Senior Hire (And Why Most Boards Underestimate It)',
+    subtitle: 'A frank breakdown of what really happens when a senior appointment goes wrong. The £200k role that quietly costs £1 million.',
+    updated: '6 March 2026',
+    sections: [
+      {
+        h: 'The Real Cost',
+        b: `Every board knows that a bad senior hire is expensive. The figure most people cite is three to five times annual salary. It sounds alarming in a presentation. But when a CFO underperforms or a new MD fails to land, nobody stops to calculate the real number. They manage the situation. They hope it improves. They eventually face a decision that should have been made six months earlier.
+
+The actual cost is almost always higher than the board acknowledges at the time. Here is what it really looks like.`,
+      },
+      {
+        h: 'Direct Financial Costs',
+        b: `These are the costs that go through finance. Severance. Legal fees. Recruitment costs for the replacement search. For a director level appointment on a £200,000 package these alone typically run to £165,000 to £410,000.
+
+Severance depends on tenure and contractual terms but typically falls between 6 and 18 months of total compensation. For a £200k role that is £100,000 to £300,000.
+
+Legal costs on both sides for an exit negotiation at this level sit around £15,000 to £40,000.
+
+Then there is the replacement search. The retained search you should have used first time around. Now run under pressure with a damaged brief. £50,000 to £70,000 for a £200k role.`,
+      },
+      {
+        h: 'Productivity Loss',
+        b: `Before the decision to exit is made there is usually 12 to 18 months of underperformance. A CFO who is not driving financial strategy. A COO who is not improving operational efficiency. An MD who is not growing revenue. The business does not stop but it slows down in ways that are hard to measure and easy to ignore.
+
+A conservative estimate is that a director level underperformer costs the organisation 50 to 75% of the value a good appointment would have generated. Over 18 months that is £200,000 to £400,000 in value the business never saw.
+
+This is the cost most boards do not calculate because it requires acknowledging what good would have looked like.`,
+      },
+      {
+        h: 'Management and Board Time',
+        b: `Managing a failing senior hire takes a huge amount of time that never appears in any financial statement. The CEO gets pulled into performance management. The board spends meetings discussing the individual instead of the strategy. HR and legal get involved. None of it shows up as a line item.
+
+A realistic estimate for a director level situation is 200 to 400 hours of senior management and board time over 18 months. At an opportunity cost of £500 to £1,000 per hour for the people involved that is £100,000 to £400,000 in time alone.`,
+      },
+      {
+        h: 'Cultural and Organisational Damage',
+        b: `The hardest costs to quantify are often the most damaging. A poor cultural fit at senior level sends signals throughout the organisation. High performing direct reports leave. Teams disengage. Decisions get deferred because nobody is sure who is really in charge.
+
+Losing two or three strong performers from a team of ten is not unusual in this situation. Each one costs £30,000 to £80,000 to replace and takes 6 to 12 months to reach full productivity. That can easily add £150,000 to £300,000 to the total cost.`,
+      },
+      {
+        h: 'The Full Picture',
+        b: `**Direct costs (severance, legal, replacement search):** £200,000 – £500,000
+**Productivity loss:** £200,000 – £400,000
+**Management and board time:** £100,000 – £400,000
+**Cultural and team impact:** £150,000 – £300,000
+
+**Total estimated cost:** £650,000 – £1,600,000
+
+A retained executive search for the same £200,000 role: £50,000 – £70,000.
+
+That is a return on investment of 10 to 20x on the search fee in downside protection alone. It does not include the upside value a genuinely excellent appointment would generate.
+
+The question boards should be asking is not whether they can afford a headhunter. It is whether they can afford not to use one.
+
+**Want to calculate the cost for your specific role?** Use our [[fee estimator|/estimator/]] to see the numbers for your situation.`,
+      },
+    ],
+    relatedLinks: [
+      { label: 'The Real Cost of a Bad Senior Hire', href: '/blog/cost-of-bad-hire/' },
+      { label: 'How Much Does a Headhunter Cost?', href: '/guides/headhunter-costs/' },
+      { label: 'Use Our Fee Estimator', href: '/estimator/' },
+      { label: 'When Should You Use a Headhunter?', href: '/guides/when-to-use-a-headhunter/' },
+    ],
+  },
+];
+
+export default GUIDES;

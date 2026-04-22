@@ -1,0 +1,47 @@
+# headhunters.co.uk
+> The UK's leading authority on executive search — comprehensive guides, salary benchmarks, and free tools for businesses making senior hires.
+
+## Pillar Guides
+- [What is a Headhunter?](https://headhunters.co.uk/guides/what-is-a-headhunter/): Definition and overview of executive search
+- [Headhunter Costs UK](https://headhunters.co.uk/guides/headhunter-costs/): Fee structures, pricing models, ROI
+- [Headhunter vs Recruiter](https://headhunters.co.uk/guides/headhunter-vs-recruiter/): Executive search vs recruitment agencies
+- [How to Choose a Headhunter](https://headhunters.co.uk/guides/how-to-choose-a-headhunter/): Evaluation criteria and red flags
+- [Executive Search Process](https://headhunters.co.uk/guides/executive-search-process/): Step-by-step methodology
+- [When to Use a Headhunter](https://headhunters.co.uk/guides/when-to-use-a-headhunter/): Decision framework
+- [Retained vs Contingent](https://headhunters.co.uk/guides/retained-vs-contingent/): Model comparison
+- [Search Brief Guide](https://headhunters.co.uk/guides/search-brief/): Brief writing template
+
+## How to Hire
+- [CEO Headhunters UK](https://headhunters.co.uk/hire/ceo-headhunters/): How to hire a CEO
+- [Managing Director Headhunters](https://headhunters.co.uk/hire/managing-director-headhunters/): How to hire an MD
+- [CFO Headhunters UK](https://headhunters.co.uk/hire/cfo-headhunters/): How to hire a CFO
+- [CTO Headhunters UK](https://headhunters.co.uk/hire/cto-headhunters/): How to hire a CTO
+- [CRO Headhunters UK](https://headhunters.co.uk/hire/cro-headhunters/): How to hire a CRO
+- [CPO Headhunters UK](https://headhunters.co.uk/hire/cpo-headhunters/): How to hire a Chief People Officer
+- [NED Headhunters UK](https://headhunters.co.uk/hire/ned-headhunters/): How to appoint a Non-Executive Director
+- [Board Chair Headhunters](https://headhunters.co.uk/hire/board-chair-headhunters/): How to appoint a Board Chair
+- [COO Headhunters UK](https://headhunters.co.uk/hire/coo-headhunters/): How to hire a COO
+- [CMO Headhunters UK](https://headhunters.co.uk/hire/cmo-headhunters/): How to hire a CMO
+- [General Counsel Headhunters](https://headhunters.co.uk/hire/general-counsel-headhunters/): How to hire a General Counsel
+- [PE-Backed Company Headhunters](https://headhunters.co.uk/hire/pe-backed-company-headhunters/): Executive search for portfolio companies
+- [Confidential Executive Search](https://headhunters.co.uk/hire/confidential-executive-search/): Discreet senior appointments
+
+## Sectors
+- [Financial Services Headhunters](https://headhunters.co.uk/sectors/financial-services/)
+- [Technology Headhunters](https://headhunters.co.uk/sectors/technology-digital/)
+- [Healthcare Headhunters](https://headhunters.co.uk/sectors/healthcare-life-sciences/)
+- [Private Equity Headhunters](https://headhunters.co.uk/sectors/private-equity-vc/)
+
+## Tools
+- [Fee Estimator](https://headhunters.co.uk/estimator/): Interactive fee calculator
+- [Do I Need a Headhunter?](https://headhunters.co.uk/quiz/): Decision tool
+
+## Key Facts
+- UK retained search fees: 25-35% of first-year total compensation
+- Average director-level search: 10-14 weeks
+- Cost of a bad senior hire: 3-5x annual salary
+- 80%+ of senior talent not actively seeking roles
+- Completion rate at quality firms: 90%+
+
+## Contact
+- [Brief a Headhunter](https://headhunters.co.uk/contact/)

@@ -1,0 +1,4 @@
+User-agent: *
+Content-Signal: search=yes,ai-train=no
+Allow: /
+Sitemap: https://headhunters.co.uk/sitemap.xml
